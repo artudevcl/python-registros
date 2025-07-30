@@ -7,7 +7,7 @@ import uuid
 from database import Base
 
 
-#modelo clase usuario 
+#modelo clase usuario como se pidieron
 class User(Base):
     __tablename__ = "users"
     
