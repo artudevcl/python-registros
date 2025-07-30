@@ -9,3 +9,20 @@ Como iniciar el proyecto
  con eso esperamos levantar PostgreSQL y el servicio Api.
 
 4. Servicio/bd arriba en puertos y direcciones por defecto. http://localhost:8000
+Documentación Interactiva (Swagger UI):  http://localhost:8000/docs
+Endpoint en: http://localhost:8000/users/register
+
+Datos prueba:
+
+{
+    "name": "Usuario Prueba",
+    "email": "usuario.prueba@dominio.cl",
+    "password": "PassWord123",
+    "phones": [
+        {
+            "number": "987654321",
+            "citycode": "1",
+            "contrycode": "56"
+        }
+    ]
+}
